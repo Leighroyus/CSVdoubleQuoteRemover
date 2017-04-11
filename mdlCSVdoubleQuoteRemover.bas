@@ -15,6 +15,8 @@ Private Sub subCSVdoubleQuoteRemover()
     Dim iQuotesCounter As Integer
     Dim bQuotesClosed As Boolean
     
+    bQuotesClosed = True
+    
     Set oFileSystem = CreateObject("Scripting.FileSystemObject")
     
     'get folder
